@@ -15,5 +15,16 @@ A GitHub account and associated OAuth token are required to run this notebook. S
 #### GitHub search terms
 Simply modify the "Parameters" section with your GitHub credentials and desired search terms. 
 
+```
+# GitHub credentials
+gh_username = 'pamelarussell'
+gh_oauth_file = 'gh_oauth_token.txt'
+
+# GitHub search terms
+topics = ['bioinformatics']
+languages = ['scala', 'java']
+issue_label = 'help wanted'
+```
+
 #### Results
 The running notebook will print a summary of repos and open issues matching your search terms.
